@@ -23,7 +23,7 @@
 
 ### [UI-redress-attack-tool](https://github.com/hackoff-ehc/UI-redress-attack-tool) 💣
 **HACKOFF - EHC**
-- 📄 A bash script for checking whether a given URL or a list of URLs are vulnerable to clickjackingattacks
+- 📄 A bash script for checking whether a given URL or a list of URLs are vulnerable to clickjacking attacks
 - 🎛️ The script uses command-line arguments to determine whether to scan a single URL or a list of URLs for clickjacking vulnerability
 - 🏷️ The script checks each URL by sending a curl request with an "X-Frame-Options: DENY" header and checks the response code for any indication of success
 - ⚠️ If the script finds a vulnerable URL, it outputs a message indicating the vulnerability has been found along with the URL
